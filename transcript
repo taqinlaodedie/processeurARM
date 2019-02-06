@@ -1,0 +1,1511 @@
+cd /nfs/home/sasl/eleves/ei-se/3874313/TD_NUM_EISE3/mini_projet/simu
+traitementsimu.do
+# invalid command name "traitementsimu.do"
+traitementsimu.do
+# invalid command name "traitementsimu.do"
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# ** Error: ../src/BancDeRegistres.vhd(13): (vcom-1136) Unknown identifier "Reset".
+# ** Error: ../src/BancDeRegistres.vhd(13): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: ../src/BancDeRegistres.vhd(13): near ":": expecting ';' or ')'
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# ** Error: ../src/UniteTraitement.vhd(18): near "std_logic_vector": expecting ':'
+# -- Loading entity UAL
+# ** Error: ../src/UniteTraitement.vhd(24): (vcom-1136) Unknown identifier "A".
+# ** Error: ../src/UniteTraitement.vhd(25): (vcom-1136) Unknown identifier "B".
+# -- Loading entity BancDeRegistres
+# ** Error: ../src/UniteTraitement.vhd(36): (vcom-1136) Unknown identifier "A".
+# ** Error: ../src/UniteTraitement.vhd(37): (vcom-1136) Unknown identifier "B".
+# ** Error: ../src/UniteTraitement.vhd(38): (vcom-1436) Actual expression (prefix expression) of formal "Reset" is not globally static.
+# ** Error: ../src/UniteTraitement.vhd(40): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-7) Failed to open design unit file "../src/UniteTraitement_tb.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-7) Failed to open design unit file "../src/UniteTraitement_tb.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# ** Error: UniteTraitement_tb.vhd(24): Symbol "Reset" has already been declared in this region.
+# ** Error: UniteTraitement_tb.vhd(26): Illegal target for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(26): Bad target (label "reset") for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(28): Illegal target for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(28): Bad target (label "reset") for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(34): near "10": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(39): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(45): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(50): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(93): near "5": expecting ';'
+# -- Loading entity UniteTraitement
+# ** Error: UniteTraitement_tb.vhd(125): near ";": expecting ',' or ')'
+# ** Error: UniteTraitement_tb.vhd(134): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# ** Error: UniteTraitement_tb.vhd(24): Symbol "Reset" has already been declared in this region.
+# ** Error: UniteTraitement_tb.vhd(26): Illegal target for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(26): Bad target (label "reset") for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(28): Illegal target for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(28): Bad target (label "reset") for signal assignment.
+# ** Error: UniteTraitement_tb.vhd(34): near "10": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(39): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(45): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(50): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(93): near "5": expecting ';'
+# -- Loading entity UniteTraitement
+# ** Error: UniteTraitement_tb.vhd(125): Bad expression in actual part of association element "reset".
+# ** Error: UniteTraitement_tb.vhd(134): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# ** Error: UniteTraitement_tb.vhd(34): near "10": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(39): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(45): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(50): near "5": expecting ';'
+# ** Error: UniteTraitement_tb.vhd(93): near "5": expecting ';'
+# -- Loading entity UniteTraitement
+# ** Error: UniteTraitement_tb.vhd(134): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# ** Error: UniteTraitement_tb.vhd(93): near "5": expecting ';'
+# -- Loading entity UniteTraitement
+# ** Error: UniteTraitement_tb.vhd(134): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# (vish-4014) No objects found matching 'Rest'.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# (vish-4014) No objects found matching 'Rest'.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 16 (31 downto 16).
+#    Time: 0 ps  Iteration: 2  Process: /unitetraitement_tb/UUT/C1/line__36 File: ../src/BancDeRegistres.vhd
+# Fatal error in ForLoop loop at ../src/BancDeRegistres.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at ../src/BancDeRegistres.vhd 40 ForLoop loop
+# 
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 16 (31 downto 16).
+#    Time: 0 ps  Iteration: 2  Process: /unitetraitement_tb/UUT/C1/line__36 File: ../src/BancDeRegistres.vhd
+# Fatal error in ForLoop loop at ../src/BancDeRegistres.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at ../src/BancDeRegistres.vhd 40 ForLoop loop
+# 
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 16 (31 downto 16).
+#    Time: 0 ps  Iteration: 2  Process: /unitetraitement_tb/UUT/C1/line__36 File: ../src/BancDeRegistres.vhd
+# Fatal error in ForLoop loop at ../src/BancDeRegistres.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at ../src/BancDeRegistres.vhd 40 ForLoop loop
+# 
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 16 (31 downto 16).
+#    Time: 0 ps  Iteration: 2  Process: /unitetraitement_tb/UUT/C1/line__36 File: ../src/BancDeRegistres.vhd
+# Fatal error in ForLoop loop at ../src/BancDeRegistres.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at ../src/BancDeRegistres.vhd 40 ForLoop loop
+# 
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 16 (31 downto 16).
+#    Time: 0 ps  Iteration: 2  Process: /unitetraitement_tb/UUT/C1/line__36 File: ../src/BancDeRegistres.vhd
+# Fatal error in ForLoop loop at ../src/BancDeRegistres.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at ../src/BancDeRegistres.vhd 40 ForLoop loop
+# 
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Warning: [14] ../src/BancDeRegistres.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 16.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 16 (31 downto 16).
+#    Time: 0 ps  Iteration: 2  Process: /unitetraitement_tb/UUT/C1/line__36 File: ../src/BancDeRegistres.vhd
+# Fatal error in ForLoop loop at ../src/BancDeRegistres.vhd line 40
+# 
+# HDL call sequence:
+# Stopped at ../src/BancDeRegistres.vhd 40 ForLoop loop
+# 
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 210 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 210 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 260 ns  Iteration: 3  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 310 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 360 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 460 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 510 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 610 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 660 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 660 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 760 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1010 ns  Iteration: 4  Instance: /unitetraitement_tb/UUT/C0
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 21 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 21 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 26 ns  Iteration: 3  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 31 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 36 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 46 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 51 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 61 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 66 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 66 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 76 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 21 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 21 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 26 ns  Iteration: 3  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 31 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 36 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 46 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 51 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 61 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 66 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 66 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 76 ns  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Error: ../src/BancDeRegistres.vhd(42): No feasible entries for subprogram "TO_INTEGER".
+# ** Error: ../src/BancDeRegistres.vhd(42): Illegal type conversion to ieee.std_logic_1164.STD_LOGIC_VECTOR (operand type is not known).
+# ** Error: ../src/BancDeRegistres.vhd(49): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# ** Error: ../src/BancDeRegistres.vhd(42): Illegal type conversion from Integer to ieee.NUMERIC_STD.SIGNED (numeric to array).
+# ** Error: ../src/BancDeRegistres.vhd(49): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# ** Error: UniteTraitement_tb.vhd(60): near ";": syntax error
+# -- Loading entity UniteTraitement
+# ** Error: UniteTraitement_tb.vhd(109): VHDL Compiler exiting
+# /opt/altera/13.0/modelsim_ase/linuxaloem/vcom failed.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# (vish-4014) No objects found matching 'OK'.
+source traitementsimu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UAL
+# -- Compiling architecture RTL of UAL
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BancDeRegistres
+# -- Compiling architecture RTL of BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement
+# -- Compiling architecture RTL of UniteTraitement
+# -- Loading entity UAL
+# -- Loading entity BancDeRegistres
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UniteTraitement_tb
+# -- Compiling architecture Bench of UniteTraitement_tb
+# -- Loading entity UniteTraitement
+# vsim UniteTraitement_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.unitetraitement_tb(bench)
+# Loading work.unitetraitement(rtl)
+# Loading work.ual(rtl)
+# Loading work.bancderegistres(rtl)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /unitetraitement_tb/UUT/C0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /unitetraitement_tb/UUT/C1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /unitetraitement_tb/UUT/C1
+# Break key hit 
+# Break key hit 
