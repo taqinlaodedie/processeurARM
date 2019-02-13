@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 
 
 entity BancDeRegistres is port(
-	CLK 	   : in std_logic;
+	CLK, Reset : in std_logic;
 	W 		   : in std_logic_vector(31 downto 0);
 	RA, RB, RW : in std_logic_vector(3 downto 0);
 	WE 		   : in std_logic;
@@ -33,14 +33,14 @@ architecture RTL of BancDeRegistres is
 begin
 	A <= Banc(to_integer(unsigned(RA)));
 	B <= Banc(to_integer(unsigned(RB)));
-	process(CLK, Reset)
+	process(CLK)
 	begin
---		if(Reset = '1') then
---			for i in 14 downto 0 loop
---				Banc(i) <= "00000000000000000000000000000000";
---			end loop;
---			Banc(15) <= std_logic_vector(to_signed(15,32));
-		if(rising_edge(CLK)) then
+		if(Reset = '1') then
+			for i in 14 downto 0 loop
+				Banc(i) <= X"00000000";
+			end loop;
+			Banc(15) <= std_logic_vector(to_signed(15,32));
+		elsif(rising_edge(CLK)) then
 			if(WE = '1') then
 				Banc(to_integer(unsigned(RW))) <= W;
 			end if;

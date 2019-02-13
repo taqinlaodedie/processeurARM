@@ -5,14 +5,14 @@ USE ieee.numeric_std.all;
 entity UniteTraitement_tb is
 end entity UniteTraitement_tb;
 
-architecture Bench of UniteTraitement_tb is
-signal Reset, Clk, WE, N : std_logic;
+architecture Bench1 of UniteTraitement_tb is
+signal Clk, WE, COM0, COM1, WrEn, flag, Reset : std_logic;
 signal OP : std_logic_vector(1 downto 0);
 signal RA, RB, RW : std_logic_vector(3 downto 0);
 signal busW : std_logic_vector(31 downto 0);
-
+signal Imm : std_logic_vector(7 downto 0);
 begin
-	clock_gen: process
+	clock_gen:process
 	begin
 		clk <= '1';
 		wait for 0.5 ns;
@@ -20,77 +20,99 @@ begin
 		wait for 0.5 ns;
 	end process;
 	
-	rst: process
+	Rst: process
 	begin
-		Reset <= '0';
-		wait for 1 ns;
 		Reset <= '1';
+		wait for 1 ns;
+		Reset <= '0';
 		wait;
 	end process;
 	
 	process
 	begin
+		COM1 <= '0';
+		COM0 <= '0';
+		OP <= "11";
 		wait for 5 ns;
-		
-		--lire R(15)
+		--R(1) = R(15) + R(0)
+		WrEn <= '0';
 		WE <= '0';
 		RA <= "1111";
-		OP <= "11";
-		wait for 5 ns;
-		
-		--ecrire R(15) dans R(1)
-		WE <= '1';
+		RB <= "0000";
+		COM0 <= '0';
+		OP <= "00";
+		COM1 <= '0';
+		wait for 1 ns;
 		RW <= "0001";
-		wait for 1.5 ns;
-		
-		--lire R(1)
+		WE <= '1';
+		wait for 1 ns;
 		WE <= '0';
 		RA <= "0001";
 		OP <= "11";
 		wait for 5 ns;
 		
-		--R(1) = R(1) + R(15)
-		RA <= "0001";
-		RB <= "1111";
+		--R(1) = R(15) + 1
+		RA <= "1111";
+		COM0 <= '1';
+		Imm <= "00000001";
 		OP <= "00";
+		wait for 1 ns;
 		WE <= '1';
-		wait for 1.5 ns;
+		wait for 1 ns;
 		WE <= '0';
-		OP <= "11";
-		wait for 5 ns;
-		
-		--R(2) = R(1) + R(15)
-		OP <= "00";
-		RW <= "0010";
-		WE <= '1';
-		wait for 2 ns;
-		WE <= '0';
-		RA <= "0010";
-		OP <= "11";
-		wait for 5 ns;
-		
-		--R(3) = R(1) - R(15)
-		OP <= "10";
 		RA <= "0001";
-		RB <= "1111";
-		wait for 5 ns;
-		WE <= '1';
-		wait for 1.5 ns;
-		WE <= '0';
-		RA <= "0011";
 		OP <= "11";
 		wait for 5 ns;
 		
-		--R(5) = R(7) - R(15)
+		--R(1) = R(15) - R(0)
+		RA <= "1111";
+		COM0 <= '0';
 		OP <= "10";
-		RA <= "0111";
-		RB <= "1111";
-		RW <= "0101";
+		wait for 1 ns;
 		WE <= '1';
-		wait for 1.5 ns;
+		wait for 1 ns;
 		WE <= '0';
-		RA <= "0101";
+		RA <= "0001";
+		OP <= "00";
+		wait for 5 ns;
+		
+		--R(1) = R(15) - 1
+		COM0 <= '1';
+		Imm <= "00000001";
+		RA <= "1111";
+		OP <= "10";
+		wait for 1 ns;
+		WE <= '1';
+		wait for 1 ns;
+		WE <= '0';
+		RA <= "0001";
 		OP <= "11";
+		wait for 5 ns;
+		
+		--R(1) = R(15)
+		COM0 <= '0';
+		RA <= "1111";
+		wait for 1 ns;
+		RW <= "0001";
+		WE <= '1';
+		wait for 1 ns;
+		WE <= '0';
+		RA <= "0001";
+		wait for 5 ns;
+		
+		--R(1) = MEM(48)
+		COM1 <= '1';
+		wait for 1 ns;
+		WE <= '1';
+		wait for 1 ns;
+		WE <= '0';
+		RA <= "0001";
+		COM1 <= '0';
+		wait for 5 ns;
+		
+		--MEM(48) = R(0)
+		WrEn <= '1';
+		COM1 <= '1';
 		wait for 5 ns;
 		
 		wait;
@@ -101,18 +123,13 @@ begin
 		Clk => Clk,
 		OP => OP,
 		WE => WE,
+		COM0 => COM0,
+		COM1 => COM1,
+		WrEn => WrEn,
 		RA => RA, 
 		RB => RB, 
 		RW => RW,	
 		busW => busW,
-		N => N);
-end architecture Bench;
-
-architecture Bench1 of UniteTraitement_tb is
-signal Clk, WE, WE, COM0, COM1, WrEn, flag : std_logic;
-signal OP : std_logic_vector(1 downto 0);
-signal RA, RB, RW : std_logic_vector(3 downto 0);
-signal busW : std_logic_vector(31 downto 0);
-signal Imm : std_logic_vector(7 downto 0);
-begin
-	
+		Imm => Imm,
+		flag => flag);
+end Bench1;

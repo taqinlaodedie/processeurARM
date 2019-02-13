@@ -2,9 +2,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-generic N:= 32;
-
 entity Multiplexeur2 is 
+generic (N:integer);
 port(
 	A,B : in std_logic_vector(N-1 downto 0); 
 	COM : in std_logic;

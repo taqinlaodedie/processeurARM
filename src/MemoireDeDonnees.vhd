@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity MemoireDeDonnees is port(
-	CLK, WrEn : in std_logic;
+	CLK, WrEn: in std_logic;
 	DataIn : in std_logic_vector(31 downto 0);
 	DataOut : out std_logic_vector(31 downto 0);
 	Addr : in std_logic_vector(5 downto 0)
@@ -20,17 +20,18 @@ architecture RTL of MemoireDeDonnees is
 	begin
 		for i in 63 downto 0 loop
 			result(i) := (others=>'0');
+		end loop;
 			return result;
 	end init_mem;
 	
 	--Declaration et Initialisation du Banc de Registres 16*32 bits
-	signal Memoire : table:=init_banc;
+	signal Memoire : table:=init_mem;
 begin
 	DataOut <= Memoire(to_integer(unsigned(Addr)));
 	process(CLK)
 	begin
 		if(rising_edge(CLK)) then
-			if(WE <= '1') then
+			if(WrEn <= '1') then
 				Memoire(to_integer(unsigned(Addr))) <= DataIn;
 			end if;
 		end if;
