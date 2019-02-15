@@ -18,10 +18,18 @@ architecture RTL of MemoireDeDonnees is
 	function init_mem return table is
 	variable result : table;
 	begin
-		for i in 63 downto 0 loop
+		for i in 63 downto 43 loop
 			result(i) := (others=>'0');
 		end loop;
-			return result;
+		for i in 41 downto 33 loop
+			result(i) := (others=>'0');
+		end loop;
+		for i in 31 downto 0 loop
+			result(i) := (others=>'0');
+		end loop;
+		result(42) := std_logic_vector(to_unsigned(7,32));
+		result(32) := std_logic_vector(to_unsigned(8,32));
+		return result;
 	end init_mem;
 	
 	--Declaration et Initialisation du Banc de Registres 16*32 bits

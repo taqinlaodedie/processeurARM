@@ -16,7 +16,7 @@ begin
 		if(RST = '1') then
 			ETAT <= X"00000000";
 		elsif((rising_edge(CLK)) and (WE = '1')) then
-			ETAT <= DATAIN;
+			ETAT(0) <= DATAIN(0);
 		end if;
 	end process;
 	

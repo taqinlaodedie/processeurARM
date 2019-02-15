@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 entity UniteTraitement is 
 port(
-	Clk, Reset			 : in std_logic; 
+	Clk, Reset, RegSel	 : in std_logic; 
 	OP 					 : in std_logic_vector(1 downto 0); 
 	WE, COM0, COM1, WrEn : in std_logic; 
 	RA, RB, RW			 : in std_logic_vector(3 downto 0); 
@@ -14,15 +14,23 @@ port(
 end entity UniteTraitement; 
 
 Architecture RTL of UniteTraitement is 
-signal A,B, busB, Im, DataOut, ALUout: std_logic_vector(31 downto 0); 
+signal A,B, busB, Im, DataOut, ALUout: std_logic_vector(31 downto 0);
+signal RegOut: std_logic_vector(3 downto 0); 
 
 Begin
+	MX0: entity work.Multiplexeur2(RTL)
+		generic map(N => 4)
+		port map(
+		A => RW,
+		B => RB,
+		COM => RegSel,
+		S => RegOut);	
 	REG: entity work.BancDeRegistres(RTL) port map (
 		Reset => Reset,
 		CLK => CLK, 	   
 		W 	=> busW,  
 		RA  => RA,
-		RB  => RB,
+		RB  => RegOut,
 		RW  => RW,
 		WE 	=> WE,  
 		A   => A,
@@ -38,7 +46,7 @@ Begin
 		port map(
 		E => Imm,
 		S => Im);
-	MX0: entity work.Multiplexeur2(RTL) 
+	MX1: entity work.Multiplexeur2(RTL) 
 		generic map(N => 32)
 		port map(
 		A => busB,
@@ -51,7 +59,7 @@ Begin
 		DataIn => busB,
 		DataOut => DataOut,
 		Addr => ALUout(5 downto 0));
-	MX1: entity work.Multiplexeur2(RTL) 
+	MX2: entity work.Multiplexeur2(RTL) 
 		generic map (N => 32)
 		port map(
 		A => ALUout,

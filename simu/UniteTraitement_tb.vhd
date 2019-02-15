@@ -6,8 +6,8 @@ entity UniteTraitement_tb is
 end entity UniteTraitement_tb;
 
 architecture Bench1 of UniteTraitement_tb is
-signal Clk, WE, COM0, COM1, WrEn, flag, Reset : std_logic;
-signal OP : std_logic_vector(1 downto 0);
+signal Clk, WE, COM0, COM1, WrEn, flag, Reset, RegSel: std_logic;
+signal OP: std_logic_vector(1 downto 0);
 signal RA, RB, RW : std_logic_vector(3 downto 0);
 signal busW : std_logic_vector(31 downto 0);
 signal Imm : std_logic_vector(7 downto 0);
@@ -33,6 +33,7 @@ begin
 		COM1 <= '0';
 		COM0 <= '0';
 		OP <= "11";
+		RegSel <= '0';
 		wait for 5 ns;
 		--R(1) = R(15) + R(0)
 		WrEn <= '0';
@@ -119,17 +120,18 @@ begin
 	end process;
 	
 	UUT: entity work.UniteTraitement(RTL) port map(
-		Reset => Reset,
-		Clk => Clk,
-		OP => OP,
-		WE => WE,
-		COM0 => COM0,
-		COM1 => COM1,
-		WrEn => WrEn,
+		Clk => Clk, 
+		Reset => Reset, 
+		RegSel => RegSel,	 
+		OP => Op,					 
+		WE => WE, 
+		COM0 => COM0, 
+		COM1 => COM1, 
+		WrEn => WrEn, 
 		RA => RA, 
 		RB => RB, 
-		RW => RW,	
-		busW => busW,
-		Imm => Imm,
+		RW => RW,			 
+		Imm	=> Imm,				 
+		busW => busW,				 
 		flag => flag);
 end Bench1;

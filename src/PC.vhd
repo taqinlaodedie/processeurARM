@@ -9,13 +9,15 @@ entity PC is port(
 end entity;
 
 architecture RTL of PC is
+signal R: std_logic_vector(31 downto 0);
 begin
 	process(Clk, Reset)
 	begin
 		if(Reset = '1') then
-			S <= X"00000000";
+			R <= X"00000000";
 		elsif(rising_edge(Clk)) then
-			S <= E;
+			R <= E;
 		end if;
 	end process;
+	S <= R;
 end architecture RTL;
