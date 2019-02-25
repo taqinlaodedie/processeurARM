@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity instruction_decoder is port(
 	Instruction 									   : in std_logic_vector(31 downto 0);
 	flag											   : in std_logic_vector(31 downto 0);
-	nPCsel, RegWr, RegSel, Alusrc, MemWr, WrSrc 	   : out std_logic;
+	nPCsel, RegWr, RegSel, Alusrc, MemWr, WrSrc, PSREn : out std_logic;
 	Aluctr 											   : out std_logic_vector(1 downto 0));
 end entity;
 
@@ -14,7 +14,7 @@ architecture RTL of instruction_decoder is
 	signal instr_courante: enum_instructrion;
 	signal OpCode, Cond: std_logic_vector(3 downto 0);
 	signal Id: std_logic_vector(1 downto 0);
-	signal Imm, PSREn: std_logic;
+	signal Imm: std_logic;
 begin
 	OpCode <= Instruction(24 downto 21);
 	Imm <= Instruction(25);
@@ -83,15 +83,15 @@ begin
 					WrSrc <= '0';
 					RegSel <= '0';
 					
-		when BLT => if(flag(0) = '1') then
+		when BLT => RegWr <= '0';
+					Alusrc <= '1';
+					Aluctr <= "00";
+					PSREn <= '0';
+					MemWr <= '0';
+					WrSrc <= '0';
+					RegSel <= '0';
+					if(flag(0) = '1') then
 						nPCsel <= '1';
-						RegWr <= '0';
-						Alusrc <= '1';
-						Aluctr <= "00";
-						PSREn <= '0';
-						MemWr <= '0';
-						WrSrc <= '0';
-						RegSel <= '0';
 					else
 						nPCsel <= '0';
 					end if;

@@ -21,8 +21,8 @@ Begin
 	MX0: entity work.Multiplexeur2(RTL)
 		generic map(N => 4)
 		port map(
-		A => RW,
-		B => RB,
+		A => RB,
+		B => RW,
 		COM => RegSel,
 		S => RegOut);	
 	REG: entity work.BancDeRegistres(RTL) port map (

@@ -11,6 +11,8 @@ end entity;
 architecture RTL of PSR is 
 	signal ETAT : std_logic_vector(31 downto 0);
 begin
+	DATAOUT <= ETAT;
+	
 	process(RST, CLK)
 	begin
 		if(RST = '1') then
@@ -19,6 +21,4 @@ begin
 			ETAT(0) <= DATAIN(0);
 		end if;
 	end process;
-	
-	DATAOUT <= ETAT;
 end architecture RTL;

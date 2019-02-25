@@ -12,7 +12,7 @@ end entity UAL;
 architecture RTL of UAL is
 	signal Y: signed(31 downto 0);
 begin
-	process(OP, A, B)
+	process(OP, A, B, Y)
 	begin
 		if(OP = "00") then
 			Y <= signed(A) + signed(B);

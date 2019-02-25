@@ -8,8 +8,8 @@ entity processeur is port(
 end processeur;
 
 architecture RTL of processeur is
-	signal Instruction, busW, flag: std_logic_vector(31 downto 0);
-	signal nPCsel, RegWr, ALUsrc, MemWr, WrSrc, RegSel: std_logic;
+	signal Instruction, busW, flag, flag1: std_logic_vector(31 downto 0);
+	signal nPCsel, RegWr, ALUsrc, MemWr, WrSrc, RegSel, PSREn: std_logic;
 	signal Offset: std_logic_vector(23 downto 0);
 	signal Rn, Rd, Rm: std_logic_vector(3 downto 0);
 	signal ALUctr: std_logic_vector(1 downto 0);
@@ -30,7 +30,8 @@ begin
 	INS: entity work.instruction_decoder(RTL)
 	port map(
 		Instruction => Instruction,
-		flag => flag,
+		flag => flag1,
+		PSREn => PSREn,
 		nPCsel => nPCsel, 
 		RegWr => RegWr, 
 		RegSel => RegSel, 
@@ -38,6 +39,14 @@ begin
 		MemWr => MemWr, 
 		WrSrc => WrSrc,
 		Aluctr => ALUctr);
+		
+	PSR: entity work.PSR(RTL)
+	port map(
+		DATAIN => flag,
+		RST => Reset, 
+		CLK => Clk, 
+		WE => PSREn,
+		DATAOUT => flag1);
 		
 	UT: entity work.UniteTraitement(RTL)
 	port map(

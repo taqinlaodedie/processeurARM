@@ -50,7 +50,7 @@ begin
 		WE <= '0';
 		RA <= "0001";
 		OP <= "11";
-		wait for 5 ns;
+		wait for 4 ns;
 		
 		--R(1) = R(15) + 1
 		RA <= "1111";
@@ -63,10 +63,11 @@ begin
 		WE <= '0';
 		RA <= "0001";
 		OP <= "11";
-		wait for 5 ns;
+		wait for 4 ns;
 		
 		--R(1) = R(15) - R(0)
 		RA <= "1111";
+		RB <= "0000";
 		COM0 <= '0';
 		OP <= "10";
 		wait for 1 ns;
@@ -75,7 +76,7 @@ begin
 		WE <= '0';
 		RA <= "0001";
 		OP <= "00";
-		wait for 5 ns;
+		wait for 4 ns;
 		
 		--R(1) = R(15) - 1
 		COM0 <= '1';
@@ -88,7 +89,7 @@ begin
 		WE <= '0';
 		RA <= "0001";
 		OP <= "11";
-		wait for 5 ns;
+		wait for 4 ns;
 		
 		--R(1) = R(15)
 		COM0 <= '0';
@@ -99,7 +100,7 @@ begin
 		wait for 1 ns;
 		WE <= '0';
 		RA <= "0001";
-		wait for 5 ns;
+		wait for 4 ns;
 		
 		--R(1) = MEM(48)
 		COM1 <= '1';
